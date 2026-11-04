@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,700&family=Inter:wght@400;500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -47,7 +47,7 @@
         </div>
         <div class="hero-art">
           <img
-            src="https://shalabean-ful-forward.lovable.app/__l5e/assets-v1/8922da0c-0c00-48df-87d0-52a26caecef9/shalabean_orange.png"
+            src="images/shalabean-tubs-orange.png"
             alt="Three tubs of Shalabean ful dip stacked" />
         </div>
       </div>
@@ -72,7 +72,7 @@
             a spoon, no bowl to wash, no stovetop involved.</p>
         </div>
         <div class="usage-art">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Ful_medames.jpg"
+          <img src="images/ful-medames-street-vendor.jpg"
             alt="Traditional ful medames breakfast served by an Egyptian street vendor, with bread, pickled vegetables, and fresh rocket leaves" />
           <p class="usage-credit">Traditional street-vendor ful medames · photo: Zachbe, Wikimedia Commons (CC BY-SA
             3.0)</p>
@@ -82,20 +82,20 @@
 
     <!-- STATS -->
     <section class="stats">
-      <div class="container stats-grid">
+      <div class="container">
         <h2 class="section-kicker">The best-kept secret in food is a bean.</h2>
-        <div class="stat-cards">
-          <div class="stat-card">
+        <div class="stat-steps">
+          <div class="stat-step">
             <span class="stat-num">13g</span>
-            <p>protein per cooked cup of fava beans. The same story hummus built a $974M category on.</p>
+            <p><em>protein</em> per cooked cup of fava beans. The same story hummus built a $974M category on.</p>
           </div>
-          <div class="stat-card">
+          <div class="stat-step">
             <span class="stat-num">9g</span>
-            <p>fiber per cup. 7 in 10 Americans are trying to eat more protein, and 64% more fiber.</p>
+            <p><em>fiber</em> per cup. 7 in 10 Americans are trying to eat more protein, and 64% more fiber.</p>
           </div>
-          <div class="stat-card">
+          <div class="stat-step">
             <span class="stat-num">0</span>
-            <p>hours of soaking. No stovetop. No can to doctor up. Open the tub and eat.</p>
+            <p><em>hours</em> of soaking. No stovetop. No can to doctor up. Open the tub and eat.</p>
           </div>
         </div>
       </div>
@@ -113,31 +113,32 @@
           <p>Traditionally it takes an overnight soak and a long simmer. We make the same dish, the same way, we just do
             the soaking and simmering before it ever reaches your fridge.</p>
         </div>
-        <div class="ful-facts">
-          <div class="ful-fact">
-            <span class="ful-fact-num">1</span>
-            <p>One of the oldest recorded dishes in the world, eaten in Egypt since the time of the Pharaohs.</p>
+        <dl class="ful-notes">
+          <div class="ful-note">
+            <dt>Ancient.</dt>
+            <dd>One of the oldest recorded dishes in the world, eaten in Egypt since the time of the Pharaohs.</dd>
           </div>
-          <div class="ful-fact">
-            <span class="ful-fact-num">2</span>
-            <p>Built on fava beans: more protein and fiber per cup than the chickpeas in hummus.</p>
+          <div class="ful-note">
+            <dt>Filling.</dt>
+            <dd>Built on fava beans: more protein and fiber per cup than the chickpeas in hummus.</dd>
           </div>
-          <div class="ful-fact">
-            <span class="ful-fact-num">3</span>
-            <p>Usually eaten with bread, olive oil, and whatever's on the table. We kept that spirit, just in a tub.</p>
+          <div class="ful-note">
+            <dt>Unfussy.</dt>
+            <dd>Usually eaten with bread, olive oil, and whatever's on the table. We kept that spirit, just in a tub.</dd>
           </div>
-        </div>
+        </dl>
       </div>
     </section>
 
     <!-- FLAVORS -->
     <section class="flavors" id="flavors">
       <div class="container">
-        <p class="eyebrow center">Three flavors. 8 oz tubs.</p>
-        <p class="eyebrow center flavors-hint">Hover or tap a flavor to see what's inside</p>
-        <div class="flavor-grid">
-          <div class="flavor-card">
-            <div class="flavor-swatch swatch-red"></div>
+        <h2 class="flavors-title">Three flavors. 8 oz tubs.</h2>
+      </div>
+      <div class="flavor-grid">
+          <div class="flavor-card flavor-red">
+            <img class="flavor-photo photo-red" src="images/flavor-smoky-red-pepper.jpg" alt="Roasted red pepper and white bean dip scooped onto a cracker" loading="lazy" />
+            <p class="flavor-credit">Roasted red pepper bean dip · photo: Keith McDuffee, Wikimedia Commons (CC BY 2.0)</p>
             <h3>Smoky Red Pepper Ful</h3>
             <p>Roasted pepper, cumin, a slow smoky finish.</p>
             <button class="ingredients-toggle" aria-expanded="false">
@@ -157,8 +158,9 @@
               </ul>
             </div>
           </div>
-          <div class="flavor-card">
-            <div class="flavor-swatch swatch-tahini"></div>
+          <div class="flavor-card flavor-tahini">
+            <img class="flavor-photo photo-tahini" src="images/flavor-tangy-tahini.jpg" alt="Whole fava beans and chopped parsley over a creamy sesame-based spread with olive oil" loading="lazy" />
+            <p class="flavor-credit">Ful over hummus · photo: News From Jerusalem, Wikimedia Commons (CC BY-SA 3.0)</p>
             <h3>Tangy Tahini Ful</h3>
             <p>Creamy sesame, garlic, bright and nutty.</p>
             <button class="ingredients-toggle" aria-expanded="false">
@@ -177,8 +179,9 @@
               </ul>
             </div>
           </div>
-          <div class="flavor-card">
-            <div class="flavor-swatch swatch-lemon"></div>
+          <div class="flavor-card flavor-lemon">
+            <img class="flavor-photo photo-lemon" src="images/flavor-zesty-lemon.jpg" alt="Plate of ful medames with citrus wedges, pita, olives and tomato" loading="lazy" />
+            <p class="flavor-credit">Ful medames with citrus · photo: Miansari66, Wikimedia Commons (CC0)</p>
             <h3>Zesty Lemon Ful</h3>
             <p>Fresh lemon, olive oil, the classic street-cart way.</p>
             <button class="ingredients-toggle" aria-expanded="false">
@@ -197,20 +200,19 @@
               </ul>
             </div>
           </div>
-        </div>
       </div>
     </section>
 
     <!-- AUDIENCE PANELS -->
     <section class="audience">
       <div class="container audience-grid">
-        <div class="audience-card">
-          <p class="eyebrow">Bored of hummus?</p>
+        <div class="audience-voice voice-new">
+          <p class="audience-q">Bored of hummus?</p>
           <h3>A new protein-forward dip.</h3>
           <p>Same shelf, same health goals, a completely new flavor. Read the nutrition panel. We want you to.</p>
         </div>
-        <div class="audience-card">
-          <p class="eyebrow">Grew up on ful?</p>
+        <div class="audience-voice voice-home">
+          <p class="audience-q">Grew up on ful?</p>
           <h3>Breakfast, without the overnight soak.</h3>
           <p>The taste of home, straight from the tub. Made by someone who grew up eating it, to share with your kids,
             friends and coworkers.</p>
@@ -220,26 +222,14 @@
 
     <!-- COMPARISON -->
     <section class="comparison">
-      <div class="container">
-        <p class="eyebrow center">Today, if you want ful, you get:</p>
-        <div class="comparison-grid">
-          <div class="comp-card">
-            <h4>Hummus</h4>
-            <p>Which isn't ful.</p>
-          </div>
-          <div class="comp-card">
-            <h4>A can</h4>
-            <p>That still needs cooking.</p>
-          </div>
-          <div class="comp-card">
-            <h4>Dried beans</h4>
-            <p>And an overnight soak.</p>
-          </div>
-          <div class="comp-card comp-highlight">
-            <h4>Shalabean</h4>
-            <p>Ready to eat. The only one.</p>
-          </div>
-        </div>
+      <div class="container comparison-inner">
+        <h2>Today, if you want ful, you get:</h2>
+        <ul class="comp-list">
+          <li><h4><span class="comp-name">Hummus</span></h4><p>Which isn't ful.</p></li>
+          <li><h4><span class="comp-name">A can</span></h4><p>That still needs cooking.</p></li>
+          <li><h4><span class="comp-name">Dried beans</span></h4><p>And an overnight soak.</p></li>
+          <li class="comp-winner"><h4><span class="comp-name">Shalabean</span></h4><p>Ready to eat. The only one.</p></li>
+        </ul>
       </div>
     </section>
 
@@ -248,7 +238,7 @@
       <div class="container retailers-inner">
         <div class="retailers-art">
           <img
-            src="https://shalabean-ful-forward.lovable.app/__l5e/assets-v1/c51a352d-57da-41b8-8f0a-1e9ff9e53727/shalabean_yellow.png"
+            src="images/shalabean-tubs-yellow.png"
             alt="Shalabean tubs on yellow" />
         </div>
         <div class="retailers-copy">
@@ -269,7 +259,7 @@
     <section class="founder" id="about">
       <div class="container founder-inner">
         <div class="founder-art">
-          <img class="founder-photo" src="asher-dubin.jpg" alt="Asher Dubin, founder of Shalabean" width="640" height="640" loading="lazy" />
+          <img class="founder-photo" src="images/asher-dubin.jpg" alt="Asher Dubin, founder of Shalabean" width="640" height="640" loading="lazy" />
         </div>
         <div class="founder-copy">
           <p class="eyebrow">Our story</p>
@@ -282,6 +272,35 @@
           <blockquote>"I want people here to get to try the dish I grew up on, the same way I grew up eating it. Not a
             fusion version, not a smoothie bowl version. Just ful, the way my family makes it."</blockquote>
           <p class="founder-sign">— Asher Dubin, Founder, USC '26</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUSTED BY -->
+    <section class="trusted">
+      <div class="container">
+        <p class="eyebrow center">Trusted by:</p>
+      </div>
+      <div class="logo-marquee">
+        <div class="logo-track">
+          <div class="logo-group">
+            <img src="images/logos/whole-foods.svg" alt="Whole Foods Market" />
+            <img src="images/logos/trader-joes.svg" alt="Trader Joe's" />
+            <img src="images/logos/erewhon.svg" alt="Erewhon" />
+            <img src="images/logos/target.svg" alt="Target" />
+            <img src="images/logos/gelsons.svg" alt="Gelson's" />
+            <img src="images/logos/sprouts.png" alt="Sprouts Farmers Market" />
+            <img src="images/logos/eataly.svg" alt="Eataly" />
+          </div>
+          <div class="logo-group" aria-hidden="true">
+            <img src="images/logos/whole-foods.svg" alt="" />
+            <img src="images/logos/trader-joes.svg" alt="" />
+            <img src="images/logos/erewhon.svg" alt="" />
+            <img src="images/logos/target.svg" alt="" />
+            <img src="images/logos/gelsons.svg" alt="" />
+            <img src="images/logos/sprouts.png" alt="" />
+            <img src="images/logos/eataly.svg" alt="" />
+          </div>
         </div>
       </div>
     </section>
